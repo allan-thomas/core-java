@@ -6,11 +6,14 @@ public class childClassCar extends parentClass {
 		
 		childClassCar ccrCar = new childClassCar();
 		ccrCar.color();
+		ccrCar.engine();
+		
 	}
 
 	public void engine() {
 
 		System.out.println("engine code is implemented");
+		brakes();
 
 	}
 

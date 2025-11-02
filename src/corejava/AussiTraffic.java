@@ -10,7 +10,8 @@ public class AussiTraffic implements CentralTraffic {
 		a.greenGo();
 		
 		AussiTraffic at= new AussiTraffic();
-		
+		AussiTraffic.walkOnSymbol();
+		at.walkOnSymbol();
 	}
 
 	@Override
@@ -37,7 +38,7 @@ public class AussiTraffic implements CentralTraffic {
 		
 	}
 	
-	public void walkOnSymbol() {
+	public static void walkOnSymbol() {
 		
 		System.out.println("Custom signaml for Aussie");
 	}
