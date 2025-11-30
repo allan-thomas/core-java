@@ -12,6 +12,7 @@ public class AussiTraffic implements CentralTraffic {
 		AussiTraffic at= new AussiTraffic();
 		AussiTraffic.walkOnSymbol();
 		at.walkOnSymbol();
+		walkOnSymbol();
 	}
 
 	@Override
